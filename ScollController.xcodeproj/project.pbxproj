@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285990D51D254A2C00DF2F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285990D41D254A2C00DF2F58 /* AppDelegate.swift */; };
+		285990D71D254A2C00DF2F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285990D61D254A2C00DF2F58 /* ViewController.swift */; };
+		285990DA1D254A2C00DF2F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285990D81D254A2C00DF2F58 /* Main.storyboard */; };
+		285990DC1D254A2C00DF2F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285990DB1D254A2C00DF2F58 /* Assets.xcassets */; };
+		285990DF1D254A2C00DF2F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285990DD1D254A2C00DF2F58 /* LaunchScreen.storyboard */; };
+		285990EA1D254A2C00DF2F58 /* ScollControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285990E91D254A2C00DF2F58 /* ScollControllerTests.swift */; };
+		285990F51D254A2C00DF2F58 /* ScollControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285990F41D254A2C00DF2F58 /* ScollControllerUITests.swift */; };
+		285991091D25771E00DF2F58 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285991081D25771E00DF2F58 /* OneViewController.swift */; };
+		2859910B1D25775100DF2F58 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859910A1D25775100DF2F58 /* TwoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285990E61D254A2C00DF2F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285990C91D254A2C00DF2F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285990D01D254A2C00DF2F58;
+			remoteInfo = ScollController;
+		};
+		285990F11D254A2C00DF2F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285990C91D254A2C00DF2F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285990D01D254A2C00DF2F58;
+			remoteInfo = ScollController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		285990D11D254A2C00DF2F58 /* ScollController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScollController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285990D41D254A2C00DF2F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		285990D61D254A2C00DF2F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		285990D91D254A2C00DF2F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		285990DB1D254A2C00DF2F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285990DE1D254A2C00DF2F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		285990E01D254A2C00DF2F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285990E51D254A2C00DF2F58 /* ScollControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScollControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285990E91D254A2C00DF2F58 /* ScollControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScollControllerTests.swift; sourceTree = "<group>"; };
+		285990EB1D254A2C00DF2F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285990F01D254A2C00DF2F58 /* ScollControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScollControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285990F41D254A2C00DF2F58 /* ScollControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScollControllerUITests.swift; sourceTree = "<group>"; };
+		285990F61D254A2C00DF2F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285991081D25771E00DF2F58 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		2859910A1D25775100DF2F58 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285990CE1D254A2C00DF2F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990E21D254A2C00DF2F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990ED1D254A2C00DF2F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285990C81D254A2C00DF2F58 = {
+			isa = PBXGroup;
+			children = (
+				285990D31D254A2C00DF2F58 /* ScollController */,
+				285990E81D254A2C00DF2F58 /* ScollControllerTests */,
+				285990F31D254A2C00DF2F58 /* ScollControllerUITests */,
+				285990D21D254A2C00DF2F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285990D21D254A2C00DF2F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285990D11D254A2C00DF2F58 /* ScollController.app */,
+				285990E51D254A2C00DF2F58 /* ScollControllerTests.xctest */,
+				285990F01D254A2C00DF2F58 /* ScollControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285990D31D254A2C00DF2F58 /* ScollController */ = {
+			isa = PBXGroup;
+			children = (
+				285990D41D254A2C00DF2F58 /* AppDelegate.swift */,
+				285990D61D254A2C00DF2F58 /* ViewController.swift */,
+				285990D81D254A2C00DF2F58 /* Main.storyboard */,
+				285990DB1D254A2C00DF2F58 /* Assets.xcassets */,
+				285990DD1D254A2C00DF2F58 /* LaunchScreen.storyboard */,
+				285990E01D254A2C00DF2F58 /* Info.plist */,
+				285991081D25771E00DF2F58 /* OneViewController.swift */,
+				2859910A1D25775100DF2F58 /* TwoViewController.swift */,
+			);
+			path = ScollController;
+			sourceTree = "<group>";
+		};
+		285990E81D254A2C00DF2F58 /* ScollControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				285990E91D254A2C00DF2F58 /* ScollControllerTests.swift */,
+				285990EB1D254A2C00DF2F58 /* Info.plist */,
+			);
+			path = ScollControllerTests;
+			sourceTree = "<group>";
+		};
+		285990F31D254A2C00DF2F58 /* ScollControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				285990F41D254A2C00DF2F58 /* ScollControllerUITests.swift */,
+				285990F61D254A2C00DF2F58 /* Info.plist */,
+			);
+			path = ScollControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285990D01D254A2C00DF2F58 /* ScollController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285990F91D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollController" */;
+			buildPhases = (
+				285990CD1D254A2C00DF2F58 /* Sources */,
+				285990CE1D254A2C00DF2F58 /* Frameworks */,
+				285990CF1D254A2C00DF2F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScollController;
+			productName = ScollController;
+			productReference = 285990D11D254A2C00DF2F58 /* ScollController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285990E41D254A2C00DF2F58 /* ScollControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285990FC1D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollControllerTests" */;
+			buildPhases = (
+				285990E11D254A2C00DF2F58 /* Sources */,
+				285990E21D254A2C00DF2F58 /* Frameworks */,
+				285990E31D254A2C00DF2F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285990E71D254A2C00DF2F58 /* PBXTargetDependency */,
+			);
+			name = ScollControllerTests;
+			productName = ScollControllerTests;
+			productReference = 285990E51D254A2C00DF2F58 /* ScollControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		285990EF1D254A2C00DF2F58 /* ScollControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285990FF1D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollControllerUITests" */;
+			buildPhases = (
+				285990EC1D254A2C00DF2F58 /* Sources */,
+				285990ED1D254A2C00DF2F58 /* Frameworks */,
+				285990EE1D254A2C00DF2F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285990F21D254A2C00DF2F58 /* PBXTargetDependency */,
+			);
+			name = ScollControllerUITests;
+			productName = ScollControllerUITests;
+			productReference = 285990F01D254A2C00DF2F58 /* ScollControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285990C91D254A2C00DF2F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "薛银亮";
+				TargetAttributes = {
+					285990D01D254A2C00DF2F58 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					285990E41D254A2C00DF2F58 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 285990D01D254A2C00DF2F58;
+					};
+					285990EF1D254A2C00DF2F58 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 285990D01D254A2C00DF2F58;
+					};
+				};
+			};
+			buildConfigurationList = 285990CC1D254A2C00DF2F58 /* Build configuration list for PBXProject "ScollController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285990C81D254A2C00DF2F58;
+			productRefGroup = 285990D21D254A2C00DF2F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285990D01D254A2C00DF2F58 /* ScollController */,
+				285990E41D254A2C00DF2F58 /* ScollControllerTests */,
+				285990EF1D254A2C00DF2F58 /* ScollControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285990CF1D254A2C00DF2F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285990DF1D254A2C00DF2F58 /* LaunchScreen.storyboard in Resources */,
+				285990DC1D254A2C00DF2F58 /* Assets.xcassets in Resources */,
+				285990DA1D254A2C00DF2F58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990E31D254A2C00DF2F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990EE1D254A2C00DF2F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285990CD1D254A2C00DF2F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285991091D25771E00DF2F58 /* OneViewController.swift in Sources */,
+				285990D71D254A2C00DF2F58 /* ViewController.swift in Sources */,
+				285990D51D254A2C00DF2F58 /* AppDelegate.swift in Sources */,
+				2859910B1D25775100DF2F58 /* TwoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990E11D254A2C00DF2F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285990EA1D254A2C00DF2F58 /* ScollControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285990EC1D254A2C00DF2F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285990F51D254A2C00DF2F58 /* ScollControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285990E71D254A2C00DF2F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285990D01D254A2C00DF2F58 /* ScollController */;
+			targetProxy = 285990E61D254A2C00DF2F58 /* PBXContainerItemProxy */;
+		};
+		285990F21D254A2C00DF2F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285990D01D254A2C00DF2F58 /* ScollController */;
+			targetProxy = 285990F11D254A2C00DF2F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		285990D81D254A2C00DF2F58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285990D91D254A2C00DF2F58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		285990DD1D254A2C00DF2F58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285990DE1D254A2C00DF2F58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285990F71D254A2C00DF2F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		285990F81D254A2C00DF2F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285990FA1D254A2C00DF2F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScollController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		285990FB1D254A2C00DF2F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScollController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		285990FD1D254A2C00DF2F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScollControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScollController.app/ScollController";
+			};
+			name = Debug;
+		};
+		285990FE1D254A2C00DF2F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScollControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScollController.app/ScollController";
+			};
+			name = Release;
+		};
+		285991001D254A2C00DF2F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScollControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScollController;
+			};
+			name = Debug;
+		};
+		285991011D254A2C00DF2F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScollControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyl.ScollControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScollController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285990CC1D254A2C00DF2F58 /* Build configuration list for PBXProject "ScollController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285990F71D254A2C00DF2F58 /* Debug */,
+				285990F81D254A2C00DF2F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285990F91D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285990FA1D254A2C00DF2F58 /* Debug */,
+				285990FB1D254A2C00DF2F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		285990FC1D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285990FD1D254A2C00DF2F58 /* Debug */,
+				285990FE1D254A2C00DF2F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		285990FF1D254A2C00DF2F58 /* Build configuration list for PBXNativeTarget "ScollControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285991001D254A2C00DF2F58 /* Debug */,
+				285991011D254A2C00DF2F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285990C91D254A2C00DF2F58 /* Project object */;
+}
